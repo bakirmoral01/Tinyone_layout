@@ -1,0 +1,1048 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+@font-face {
+    font-family: Source sans;
+    src: url('../fonts/SourceSansPro-Regular.ttf')
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.title {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Source sans;
+    font-weight: bold;
+}
+
+
+
+header {
+    width: 1400px;
+    height: 860px;
+    background: url(../img/bg1.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto
+}
+
+footer {
+    width: 1400px;
+    height: 770px;
+    background-color: #010101;
+    background-size: cover;
+    margin: 70px auto
+}
+
+#feature {
+    width: 965px;
+    height: 550px;
+    margin: 0 auto
+}
+
+
+#price {
+    width: 965px;
+    height: 550px;
+    margin: 0 auto
+}
+
+#work {
+    width: 965px;
+    height: 800px;
+    margin: 0 auto
+}
+
+#team {
+    width: 965px;
+    height: 550px;
+    margin: 0 auto
+}
+
+
+#stats {
+    width: 965px;
+    height: 660px;
+    margin: 0 auto
+}
+
+
+#contact {
+    width: 965px;
+    height: 680pxpx;
+    margin: 0 auto
+}
+
+.header_wrapper {
+    width: 950px;
+    margin: 0 auto
+}
+
+.header_content {
+    width: 935px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.grid_icon {
+    width: 30px;
+    height: 30px;
+    padding-top: 75px;
+}
+
+.fa.fa-bars {
+    color: black;
+    font-size: 25px;
+}
+
+
+
+.logo {
+    width: 160px;
+    height: 50px;
+    margin-left: 360px;
+    padding-top: 60px;
+}
+
+.logo span {
+    font-family: Sourc sans;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px
+}
+
+.header_social_icon {
+    width: 130px;
+    height: 35px;
+    padding-top: 70px;
+}
+
+.header_social_icon a {
+    padding-left: 5px
+}
+
+.header_social_icon a i {
+    color: black
+}
+
+
+
+.banner {}
+
+.banner_content {
+    width: 500px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 255px;
+}
+
+.banner_content h2 {
+    font-size: 48px;
+}
+
+.banner_content p {
+    font-size: 20px;
+    color: #222222;
+    font-family: Source sans;
+    font-weight: normal;
+}
+
+.my_btn {
+    width: 255px;
+    height: 55px;
+    border: 1px solid black;
+    font-family: Source sans;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 40px;
+    background: transparent;
+}
+
+.down_arrow {
+    width: 35px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 180px;
+
+}
+
+.down_arrow i {
+    font-size: 35px;
+    color: black;
+}
+
+
+
+.feature_title {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.feature_title h2 {
+    font-size: 32px;
+}
+
+.feature_title p {
+    font-size: 20px;
+    color: #adadad;
+    font-family: Source sans;
+    font-Weight: normal;
+}
+
+.feature_items {
+    width: 915px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 85px
+}
+
+.singl_feature {
+    width: 265px;
+    height: 115px;
+    float: left;
+    margin-left: 4.3%;
+    margin-bottom: 50px;
+}
+
+.feature_icon {
+    width: 40px;
+    height: 45px;
+    float: left
+}
+
+.feature_content {
+    width: 200px;
+    height: 110px;
+    float: right
+}
+
+.feature_content h3 {
+    font-size: 22px;
+}
+
+.feature_content p {
+    font-size: 16px;
+    color: #adadad;
+    font-family: Source sans;
+    font-weight: normal;
+}
+
+
+
+
+.price_title {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.price_title h2 {
+    font-size: 32px;
+}
+
+.price_title p {
+    font-size: 20px;
+    color: #adadad;
+    font-family: Source sans;
+    font-weight: normal;
+}
+
+
+
+.price_list {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 85px
+}
+
+.single_price {
+    width: 175px;
+    height: 395px;
+    float: left;
+    margin-right: 12.5%;
+}
+
+.single_price:last-child {
+    margin-right: 0px
+}
+
+.price_icon {}
+
+.price_content {
+    text-align: center;
+}
+
+.price_content h3 {
+    font-size: 24px;
+    margin-top: 45px
+}
+
+.month {
+    font-size: 14px;
+    color: #adadad;
+    font-family: Source sans;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 20px
+}
+
+.price_content p {
+    font-size: 14px;
+    color: #adadad;
+    font-family: Source sans;
+    font-weight: normal;
+
+}
+
+
+
+.price_content span {
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin-left: 70px
+}
+
+.price_content button {
+    width: 140px;
+    height: 45px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Source sans;
+    margin-top: 38px;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+
+
+.main_work {}
+
+.work_title {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.work_title h2 {
+    font-size: 32px;
+}
+
+.work_title p {
+    font-family: Source sans;
+    font-size: 20px;
+    color: #adadad;
+}
+
+.work_detail {
+    width: 940px;
+    height: 630px;
+    margin: 0 auto;
+    margin-top: 85px
+}
+
+.single_work {
+    width: 220px;
+    height: 285px;
+    float: left;
+    margin-left: 1.59%;
+    margin-bottom: 30px
+}
+
+.work_image {}
+
+.work_content {
+    text-align: center
+}
+
+.work_content h3 {
+    font-size: 22px;
+
+}
+
+.work_content p {
+    font-family: Source sans;
+    font-size: 16px;
+    color: #adadad;
+}
+
+
+
+.main_team {}
+
+.team_title {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.team_title h2 {
+    font-size: 32px;
+}
+
+.team_title p {
+    font-family: Source sans;
+    font-size: 20px;
+    color: #adadad;
+    font-weight: normal
+}
+
+
+.team_member {
+    width: 885px;
+    height: 325px;
+    margin: 0 auto;
+    margin-top: 85px
+}
+
+.single_team {
+    width: 170px;
+    height: 300px;
+    float: left;
+    margin-right: 7.7%
+}
+
+.single_team:last-child {
+    margin-right: 0px;
+}
+
+.team_image {
+    width: 130px;
+    height: 130px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+.team_member_content {
+    text-align: center
+}
+
+.team_member_content h3 {
+    font-size: 22px;
+
+}
+
+.team_member_content p {
+    font-family: Source sans;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.designaion {
+    font-family: Source sans;
+    font-size: 16px;
+    color: #adadad;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.team_icon {
+    text-align: center
+}
+
+.team_icon i {
+    padding-left: 5px
+}
+
+
+
+
+.main_stats {}
+
+.stats_title {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.stats_title h2 {
+    font-size: 32px;
+}
+
+.stats_title p {
+    font-family: Source sans;
+    font-size: 20px;
+    color: #adadad;
+    font-weight: normal
+}
+
+.stats_content {
+    width: 620px;
+    margin: 0 auto;
+    height: 100px;
+    padding-top: 85px;
+}
+
+.single_stats_content {
+    width: 70px;
+    float: left;
+    margin-left: 13%;
+}
+
+.stats_icon {}
+
+.stats_icon i {
+    font-size: 45px;
+    color: #000
+}
+
+
+
+.stats_icon_cont {}
+
+.stats_icon_cont h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.stats_icon_cont p {
+    font-family: Source sans;
+    font-size: 14px;
+    color: #adadad;
+    font-weight: normal
+}
+
+
+
+.testimonials {
+    width: 600px;
+    height: 225px;
+    margin: 0 auto;
+    padding-top: 85px;
+    text-align: center
+}
+
+.testimonials p {
+    font-family: Source sans;
+    font-size: 20px;
+    color: #adadad;
+    font-weight: normal
+}
+
+.test_image {}
+
+.test_image img {
+    margin-bottom: 15px
+}
+
+
+
+
+.main_contact {}
+
+.contact_title {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.contact_title h2 {
+    font-size: 32px;
+}
+
+.contact_title p {
+    font-family: Source sans;
+    font-size: 20px;
+    color: #adadad;
+    font-weight: normal
+}
+
+.contact_icon {
+    width: 616px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 85px
+}
+
+
+
+.single_contact {
+    width: 165px;
+    height: 118px;
+    float: left;
+    text-align: center;
+    margin-left: 6.5%
+}
+
+.single_contact h3 {}
+
+.single_contact p {
+    font-family: Source sans;
+    font-size: 14px;
+    color: #adadad;
+    font-weight: normal
+}
+
+.single_contact p a {
+    text-decoration: none;
+    font-family: Source sans;
+    font-size: 14px;
+    color: #adadad;
+    font-weight: normal
+}
+
+.contact_image {}
+
+.contact_image i {
+    font-size: 35px;
+    color: black;
+}
+
+
+
+.contact_content {}
+
+
+
+.form {
+    width: 485px;
+    height: 365px;
+    margin: 0 auto;
+}
+
+.same_style {
+    width: 480px;
+    height: 50px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.area_style {
+    width: 468px;
+    height: 195px;
+    border: 2px solid black;
+    padding: 5px;
+    appearance:none;  
+}
+
+.contact_button {
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Source sans;
+    font-weight: bold;
+    border: 0;
+    margin-left: 41%;
+    text-transform: uppercase;
+}
+
+.footer_wrapper {}
+
+.footer_title {
+    width: 770px;
+    height: 210px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 115px;
+    color: white
+}
+
+.footer_title h2 {
+    font-size: 32px;
+}
+
+.footer_title p {
+    font-family: Source sans;
+    font-size: 20px;
+    color: #adadad;
+    font-weight: normal
+}
+
+form {
+    margin-top: 35px
+}
+
+.mail {
+    width: 600px;
+    height: 40px;
+    border: 0;
+    padding: 5px;
+
+}
+
+.foot_btn {
+    width: 135px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-family: Source sans;
+    font-weight: bold;
+    border: 0;
+    text-transform: uppercase;
+
+}
+
+.footer_content {
+    width: 850px;
+    height: 85px;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-family: Source sans;
+    font-size: 16px;
+    color: #adadad;
+    font-weight: normal
+}
+
+.address {
+    width: 200px;
+    height: 80px;
+    color: white;
+    margin-right: 54px;
+}
+
+.address a {
+    color: white;
+    text-decoration: none
+}
+
+.single_footer_content {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10.8%;
+}
+
+.single_footer_content:last-child {
+    margin-right: 0;
+}
+
+.single_footer_content ul {
+    list-style: none;
+}
+
+.single_footer_content ul li {}
+
+.single_footer_content ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
